@@ -106,22 +106,34 @@ select:hover {
 }
 
 .kreis {
-    height: 5vh;
-    width: 2.5vw;
+    height: 4vh;
+    width: 2vw;
     border: 1px #ebccc2 solid;
     border-radius: 50%;
 }
 
 .rand {
     border-left: 1px solid #867772;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
-    margin-left: 22.5%;
+    margin-left: 19.5%;
     align-self: center;
 }
 
 .ABOUT {
     align-self: center;
+}
+
+.ABOUT a {
+    color: #867772;
+}
+
+.MARKED {
+    align-self: center;
+}
+
+.MARKED a {
+    color: #ebccc2;
 }
 
 /* Main */
