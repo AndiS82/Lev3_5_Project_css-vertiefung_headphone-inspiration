@@ -249,3 +249,11 @@ CSS für lounger.html
     flex-direction: column;
     padding: 20% 5%;
 }
+
+.pLounger {
+    padding-top: 35%;
+    color: #867772;
+    font-size: 2rem;
+    line-height: 25px;
+    word-spacing: 5px;
+}
