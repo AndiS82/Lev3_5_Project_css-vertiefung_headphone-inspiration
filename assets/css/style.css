@@ -136,6 +136,7 @@ select:hover {
 
 .ABOUT a {
     color: #867772;
+    transition-duration: 2s;
 }
 
 .MARKED {
@@ -149,6 +150,7 @@ select:hover {
 
 .ABOUT a:hover {
     color: #ebccc2;
+    transition-duration: 1s;
 }
 
 /* Main */
