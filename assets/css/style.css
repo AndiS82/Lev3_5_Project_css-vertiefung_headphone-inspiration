@@ -6,8 +6,8 @@ assets: Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(11
 }
 
 @font-face {
-    font-family: 'Work Sans ExtraLight';
-    src: url("../fonts/WorkSans-ExtraLight.ttf")
+    font-family: 'Work Sans Thin';
+    src: url("../fonts/WorkSans-Thin.ttf")
 }
 
 * {
@@ -73,7 +73,7 @@ select:hover {
 
 .navArticle {
     position: fixed;
-    padding: 15% 0 20% 2.5%;
+    padding: 25% 0 20% 2.5%;
     list-style: none;
     align-self: center;
     padding-right: 10%;
@@ -105,18 +105,28 @@ select:hover {
 
 }
 
+/* Kreise */
+
 .kreis {
-    height: 4vh;
-    width: 2vw;
+    height: 1vh;
+    width: 0.5vw;
+    border: 1px #867772 solid;
+    border-radius: 50%;
+}
+
+.kreis2 {
+    height: 2vh;
+    width: 1vw;
     border: 1px #ebccc2 solid;
     border-radius: 50%;
+    margin: -3% -9.3%;
 }
 
 .rand {
     border-left: 1px solid #867772;
-    height: 8vh;
+    height: 6vh;
     width: 100%;
-    margin-left: 19.5%;
+    margin: 0 0% 10% 6%;
     align-self: center;
 }
 
@@ -130,9 +140,14 @@ select:hover {
 
 .MARKED {
     align-self: center;
+    padding-bottom: 5px;
 }
 
 .MARKED a {
+    color: #ebccc2;
+}
+
+.ABOUT a:hover {
     color: #ebccc2;
 }
 
@@ -148,7 +163,7 @@ select:hover {
 }
 
 .h1Index {
-    font-family: 'Work Sans ExtraLight' sans-serif;
+    font-family: 'Work Sans Thin' sans-serif;
     font-size: 4rem;
     font-weight: 10;
     word-spacing: 5px;
@@ -170,8 +185,6 @@ select:hover {
     justify-content: center;
 }
 
-
-
 .articleIndex {
     padding-left: 10%;
 }
@@ -190,7 +203,8 @@ select:hover {
 }
 
 .h1Article {
-    font-family: 'Work Sans ExtraLight' sans-serif;
+    font-family: 'Work Sans Thin' sans-serif;
+    color: #ebccc2;
     font-size: 4rem;
     font-weight: 100;
     letter-spacing: 5px;
@@ -217,3 +231,21 @@ select:hover {
 CSS für lounger.html
 
 */
+.sectionLounger {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-color: #2e2e2e;
+}
+
+.imgLounger {
+    height: 100vh;
+    width: 70%;
+}
+
+.artLounger {
+    display: flex;
+    flex-direction: column;
+    padding: 20% 5%;
+}
